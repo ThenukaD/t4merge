@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+
+
+
+    <!--<test name="TestG1">-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="g1"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+
+        <!--<classes>-->
+            <!--<class name="org.wso2.carbon.tests.BeforeTestGroups"/>-->
+            <!--<class name="org.wso2.carbon.tests.MainGroupClass"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="TestG2">-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="g2"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+
+        <!--<classes>-->
+            <!--<class name="org.wso2.carbon.tests.BeforeTestGroups"/>-->
+            <!--<class name="org.wso2.carbon.tests.MainGroupClass"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <test name="TestG1">
+
+        <classes>
+            <class name="org.wso2.carbon.tests.Example2"/>
+            <!--<class name="org.wso2.carbon.tests.MainGroupClass"/>-->
+        </classes>
+    </test>
+
+</suite>
